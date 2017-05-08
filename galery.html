@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daewoo Lanos</title>
+    <link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="icon" href="images/daewoo.png">
+    
+</head>
+
+<body onload="changeSlide()">
+  <div id="wrapper">
+      <header>
+          <img src="images/lanos.jpg" alt="daewoo lanos"/>
+      </header>
+      
+      <nav>
+          <a class="menu" href="main.html">O Lanosie</a>
+          <a class="menu" href="instrukcja.html">Instrukcja obsługi</a>
+          <a class="menu" href="history.html">Kalendarium</a>
+          <a class="menu active" href="#">Galeria</a>
+          <a class="menu" href="game.html">Gra</a>
+      </nav>
+      <article>
+    <div id="timer"></div>
+    <h1>Daewoo Lanos - szczyt technologiczny został osiągnięty</h1>
+          <span class="slideNumber" onclick="setSlide(1)">[1]</span>
+          <span class="slideNumber" onclick="setSlide(2)">[2]</span>
+          <span class="slideNumber" onclick="setSlide(3)">[3]</span>
+          <span class="slideNumber" onclick="setSlide(4)">[4]</span>
+          <span class="slideNumber" onclick="setSlide(5)">[5]</span>
+    <div id="slider"><img class="slide" src="images/slides/slide1.jpg"/></div>
+      
+    <script src="js/time.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+			  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+			  crossorigin="anonymous"></script>
+     </article> 
+      <footer>
+          Wszelkie prawa zastrzeżone
+      </footer>
+    </div>
+</body>
+</html>

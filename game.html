@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daewoo Lanos</title>
+    <link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="icon" href="images/daewoo.png">
+    
+</head>
+
+<!--<body onload="refreshDate();">-->
+  <body>
+    <div id="wrapper">
+      <header>
+          <img class="mem_header" src="images/memory/memory.PNG" alt="memory"/>
+      </header>
+      
+      <nav>
+          <a class="menu" href="main.html">O Lanosie</a>
+          <a class="menu" href="instrukcja.html">Instrukcja obsługi</a>
+          <a class="menu" href="history.html">Kalendarium</a>
+          <a class="menu" href="galery.html">Galeria</a>
+          <a class="menu active" href="#">Gra</a>
+      </nav>
+            
+      <div id="score">Twój wynik: </div>
+        <div id="square">
+        <div style="clear:both;"></div>
+        <div class="box"></div>
+        </div>
+      <div id="set">
+            <button id="setButton1" onclick="setKit('1');">ZESTAW  1<div id="logo"><img id="logo" src="images/memory/icon9_1.png"/></div></button>
+            <button id="setButton2" onclick="setKit('2');">ZESTAW  2<div id="logo"><img id="logo" src="images/memory/icon1_2.png"/></div></button>
+            <button id="setButton3" onclick="setKit('3');">ZESTAW  3<div id="logo"><img id="logo" src="images/memory/icon1_3.png"/></div></button>
+        </div>
+      <div id="description">
+        <p>Ćwicz swoją pamięć! Odkrywaj karty i zapamiętuj ich zawartość. Znajdź wszystkie 10 par
+          starając się wykonać jak najmniejszą liczbę kliknięć. Twój wynik wyświetli się na górze ekranu.
+            W bocznym panelu możesz wybrać zestaw obrazków. Powodzenia!</p>
+        </div>
+      
+<!--
+      <button id="button">Wylosuj rocznik Lanosa</button>
+      <div id="container"><p>Tu pojawi się rocznik Twojego używanego Lanosa!</p></div>
+      
+      <div id="price">
+            <p>Zaproponuj cenę za Lanosa z powyższego rocznika:</p>
+            <input id="pole" type="text"/> 
+            <input id="check" type="submit" value="Sprawdź" onclick="check()"/>
+      </div>
+      <div id="answer"></div>
+      
+      <script src="engine.js"></script>
+-->
+    <script src="js/memory.js"></script>
+      <footer>
+          Wszelkie prawa zastrzeżone
+      </footer>
+    </div>
+</body>
+</html>

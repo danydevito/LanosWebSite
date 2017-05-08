@@ -1,0 +1,274 @@
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: Dosis, arial;
+    box-sizing: border-box;
+}
+
+body {background-color: beige}
+
+#wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+img.mem_header{
+    margin: 0 250px 15px;
+    width: 500px;
+    height: 100px;
+    display: block;
+}
+#score{
+   padding: 10px;
+    float: left;
+    width: 75%;
+    overflow: hidden; 
+    text-align: center;
+    font-size: 28px;
+    color: brown;
+}
+#square{
+    padding: 10px;
+    float: left;
+    width: 75%;
+    overflow: hidden;
+    min-height: 600px;
+}
+#set{
+    padding: 10px;
+    float: left;
+    width: 20%;
+    overflow: hidden;
+}
+#description{
+    width: 100%;
+    margin: 5px;
+    overflow: hidden;
+    padding: 10px 30px;
+    border-top: 4px solid orange;
+    font-size: 30px;
+}
+.box{
+    padding: 5px;
+    background-color: aquamarine;
+    float: left;
+}
+.box:hover{
+    border: 2px solid green;
+    cursor: pointer;
+}
+#container{
+    display: block;
+    width: 100%;
+    color: blueviolet;
+    font-size: 38px;
+    text-align: center;
+    overflow: hidden;
+    height: 70px;
+}
+nav {
+    overflow: hidden;
+}
+nav a {
+    display: block;
+    width: 20%;
+    float: left;
+    background-color: chocolate;
+    transition: all 1s ease;
+}
+
+a.menu {
+    padding: 15px 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a.menu:hover {
+    background-color: brown;
+    cursor: pointer;
+}
+
+.active {
+    background-color: brown;
+}
+#timer{
+    text-align: right;
+    font-size: 18px;
+    height: 22px;  
+    color: brown
+}
+#price{
+    background-color: darkgray;
+    text-align: center;
+    height: 110px;
+    color:blueviolet;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#pole{
+    background-color:forestgreen;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+    color: azure;
+    font-size: 20px;
+}
+#check{
+    background-color: chartreuse;
+    padding: 5px;
+    font-size: 20px;
+}
+#answer{
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+article {
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 25px;
+}
+@media (max-width:800px){
+    nav a{
+        width: 50%;
+    }
+}
+@media (max-width:500px){
+    nav a{
+        width: 100%;
+    }
+}
+
+article h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 5% 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+.left {
+    float: left;
+    padding: 0 10px 10px 0;
+    width: 30%;
+    border-radius: 30% 30% 30%;
+}
+.slide {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 0 10px 10px 0;
+    width: 90%;
+    margin: 10px;
+}
+div#slider {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 500px;
+    float: left;
+    padding: 10px;
+    width: 80%;
+}
+.slideNumber{
+    cursor: pointer;
+    font-size: 18px;
+    color: brown;
+    border-bottom: 2px solid brown;
+    margin: 5px 30px;
+}
+.opis {
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+button{
+    margin: 20px auto;
+    padding: 50px;
+    background-color: darkorange;
+    color: azure;
+    border: none;
+    display: block;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+button:hover{
+    background-color: firebrick;
+    cursor: pointer;
+}
+button#setButton1{
+    margin: 10px auto;
+    padding: 10px;
+    background-color: green;
+    color: azure;
+    border: none;
+    display: block;
+    width: 180px;
+    border-radius: 10px;
+    font-size: 30px;    
+}
+button#setButton1:hover{
+    background-color: firebrick;
+    cursor: pointer;
+}
+button#setButton2{
+    margin: 10px auto;
+    padding: 10px;
+    background-color: darkorange;
+    color: azure;
+    border: none;
+    display: block;
+    width: 180px;
+    border-radius: 10px;
+    font-size: 30px;    
+}
+button#setButton2:hover{
+    background-color: firebrick;
+    cursor: pointer;
+}
+button#setButton3{
+    margin: 10px auto;
+    padding: 10px;
+    background-color: darkorange;
+    color: azure;
+    border: none;
+    display: block;
+    width: 180px;
+    border-radius: 10px;
+    font-size: 30px;    
+}
+button#setButton3:hover{
+    background-color: firebrick;
+    cursor: pointer;
+}
+#logo{
+    width: 70%;
+    height: 70%;
+}
+article p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+    padding: 15px 0;
+}
+iframe {
+    width: 100%;
+    padding: 10px 150px;
+}
+footer {
+    height: 40px;
+    background-color:burlywood;
+    color: azure;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0 auto;
+}
